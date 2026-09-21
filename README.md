@@ -432,28 +432,25 @@ Search Output
 
 The word apple is present in 3 file(s).
 
-### In file: file1.txt  2 time(s)
+ In file: file1.txt  2 time(s)
 
-### In file: file2.txt  1 time(s)
+ In file: file2.txt  1 time(s)
 
-### In file: file3.txt  2 time(s)
+ In file: file3.txt  2 time(s)
 
-Display Output
+### Display Output
 
-### -----------------------------------------------------------------------------------------------
+### Index --> 0
 
-### Index    Word                    File Count      File Name                 Word Count
+### Word  --> apple
 
-### -----------------------------------------------------------------------------------------------
+### File Count  --> 3
 
-### 0        apple                    3              file1.txt                   2
+### File Name  --> file1.txt , file2.txt, file3.txt
 
-                                                 file2.txt                   1
-                                                 
-                                                 file3.txt                   2
-                                                 
-###  -----------------------------------------------------------------------------------------------
-
+### Word Count  --> 2,            1,          2
+ 
+ 
 The exact index depends on the first character of the word.
 
 
