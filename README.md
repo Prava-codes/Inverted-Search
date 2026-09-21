@@ -9,6 +9,7 @@ The application accepts multiple .txt files through command-line arguments and s
 The project provides operations to create, search, display, save, and update the database. It also includes file validation, duplicate-file checking, dynamic memory allocation, and error handling.
 
 
+
 ## PROBLEM STATEMENT
 
 Searching for a particular word across multiple text files can become inefficient when each file has to be searched separately every time.
@@ -22,10 +23,13 @@ For example:
 apple
   |
   ├── file1.txt → 3 occurrences
+  
   ├── file2.txt → 2 occurrences
+  
   └── file3.txt → 5 occurrences
 
 This structure allows the application to directly access the information associated with a word instead of repeatedly scanning all input files.    
+
 
 
 ## OBJECTIVE
@@ -50,6 +54,7 @@ The main objectives of this project are:
   
 - To implement a menu-driven database application.
   
+
 
 ## FEATURES
 
@@ -80,6 +85,7 @@ The main objectives of this project are:
 - Uses colored terminal output for better readability.
 
 
+
 ## TECHNOLOGIES USED
 
 - C                          ->	Core programming language
@@ -91,6 +97,7 @@ The main objectives of this project are:
 - Dynamic Memory Allocation	 -> Creating linked-list nodes dynamically
   
 - Command-Line Arguments	   -> Passing input text files to the program
+
 
 
 ## DATA STRUCTURES USED
@@ -160,6 +167,7 @@ file1.txt → file2.txt → file3.txt → NULL
 This list is used while creating and updating the database.
 
 
+
 ## OPERATIONS
 
 - Create Database
@@ -171,6 +179,7 @@ This list is used while creating and updating the database.
 - Save Database
 
 - Update Database
+
 
 
 ## PROJECT WORKFLOW
@@ -196,6 +205,7 @@ This list is used while creating and updating the database.
 10. Update/restore the database from the saved backup file.
 
 11. Release allocated memory and exit safely.
+
 
 
 ## PROJECT STRUCTURE
@@ -225,6 +235,7 @@ Inverted-Search/ │
 ├── file3.txt 
 
 │ └── README.md
+
 
 
 ## FILES DESCRIPTION
@@ -358,11 +369,13 @@ It:
 - Updates the file linked list.
 
 
+
 ## COMPILATION
 
 ### Compile all source files using GCC:
 
 gcc *.C
+
 
 
 ## EXECUTION
@@ -376,6 +389,7 @@ Example:
 ./a.out data1.txt data2.txt data3.txt
 
 The program then validates the files and displays the Inverted Search Database menu.
+
 
 
 ## Sample Input
@@ -407,6 +421,7 @@ Enter your choice : 2
 Enter the word to search : apple
 
 
+
 ## Sample Output
 
 File Linked List
@@ -417,19 +432,30 @@ Search Output
 
 The word apple is present in 3 file(s).
 
-In file: file1.txt  2 time(s)
-In file: file2.txt  1 time(s)
-In file: file3.txt  2 time(s)
+### In file: file1.txt  2 time(s)
+
+### In file: file2.txt  1 time(s)
+
+### In file: file3.txt  2 time(s)
+
 Display Output
------------------------------------------------------------------------------------------------
-Index    Word                    File Count      File Name                 Word Count
------------------------------------------------------------------------------------------------
-0        apple                    3              file1.txt                   2
+
+### -----------------------------------------------------------------------------------------------
+
+### Index    Word                    File Count      File Name                 Word Count
+
+### -----------------------------------------------------------------------------------------------
+
+### 0        apple                    3              file1.txt                   2
+
                                                  file2.txt                   1
+                                                 
                                                  file3.txt                   2
------------------------------------------------------------------------------------------------
+                                                 
+###  -----------------------------------------------------------------------------------------------
 
 The exact index depends on the first character of the word.
+
 
 
 ## ADVANTAGES
@@ -453,6 +479,7 @@ The exact index depends on the first character of the word.
 - Provides input validation and error handling.
 
 
+
 ## APPLICATIONS
 
 The concepts implemented in this project can be applied to:
@@ -472,6 +499,7 @@ The concepts implemented in this project can be applied to:
 - Keyword indexing
 
 - Information retrieval systems
+
 
 
 ## FUTURE ENHANCEMENTS
@@ -497,6 +525,7 @@ The concepts implemented in this project can be applied to:
 - Improved memory cleanup for all dynamically allocated database nodes.
 
 
+
 ## LEARNING OUTCOMES
 
 - Practical implementation of hash tables and linked lists.
@@ -512,6 +541,7 @@ The concepts implemented in this project can be applied to:
 - Developing a menu-driven C application.
 
 - Applying data structures to a real-world problem.
+
 
 
 ## CONCLUSION
